@@ -1,0 +1,42 @@
+
+body{
+    background-color: black;
+}
+
+.main-head{
+text-align: center;
+color: purple;
+
+}
+.sub{
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;font-style: normal;
+font-style: normal;
+
+
+}
+
+.main{
+    border:2px white solid;
+    width: 300px; 
+    height: 400px; 
+    background-color: purple;
+    color: white;
+    text-align: center;
+    float: left;
+    
+}
+
+.galaxy-div{
+ background-color: rebeccapurple;
+
+
+}
+.pocco-div{
+    background-color: seagreen;
+}
+
+.main h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}

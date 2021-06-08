@@ -1,0 +1,43 @@
+.main{
+    border: 1px black solid;
+    width:30% ;
+    height: 15%
+}
+.top{
+    margin-top: 10px;
+ 
+}
+.bottom{
+    margin-top: 10px; 
+}
+
+
+#col1{
+    
+    background-color:grey;
+    height: 50px;
+    width: 50px ;
+    border: 1px blue solid;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#col2{
+    
+    background-color:rgb(7, 77, 7);
+    height: 50px;
+    width: 50px ;
+    border: 1px blue solid;
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+
+}
+.row1{
+    float: left;
+}
+.col{
+    border: black solid 2px; 
+    width :30%;
+    float: left;
+    text-align: center;
+}

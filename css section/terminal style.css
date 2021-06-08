@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+.main-head{
+    font-family: 'Odibee Sans', cursive;
+}
+
+.terminal{
+border:rgb(112, 11, 11) 1px solid;
+height: 600px;
+width: 430px;
+background-color: blue;
+text-align: center; 
+color: white;
+float: left;
+}
+
+.pi{
+    border: rgb(112, 11, 11) 2px solid;
+    height: 600px;
+    width: 450px;
+    background-color:red;
+    text-align: center; 
+    color: white;
+    float: left;
+    }
+
+    .muci{
+        border:rgb(112, 11, 11) 2px solid;
+        height: 600px;
+        width: 430px;
+        background-color: blue;
+        text-align: center; 
+        color: white;
+        float: left;
+        }
+     .flix-div{
+         background-color: black;
+         color: white;
+         height: 15%;
+         text-align: center;
+         
+     }

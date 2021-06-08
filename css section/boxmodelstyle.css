@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+#one{
+    height: 120px;
+    width: 100px;
+    border: solid black 2px;
+    text-align: center;
+    background-color: grey;
+    float: left;
+    margin-left: 500px;
+}
+#two{
+    height: 120px;
+    width: 100px;
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(25, 83, 10);
+    float: left;  
+}
+#three{
+    height: 120px;
+    width: 100px;
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(44, 155, 16);
+    float: left; 
+}
+#four{
+    height: 120px;
+    width: 100px;
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(8, 26, 3); 
+    float: left; 
+}
+#five{
+    height: 120px;
+    width: 100px;
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(8, 26, 3);  
+     margin-left: 395px;
+}
+#one1{
+    height: 120px;
+    width: 100px;
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(231, 157, 18);
+    float:left; 
+    margin-left: 290px; 
+    margin-top: 30px;
+}
+#two2{
+    height: 120px;
+    width: 100px;
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(214, 65, 28);
+    float:left; 
+    margin-top: 30px;
+}
+#three3{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: peru;
+    float:left; 
+    margin-top: 30px;
+}
+#four4{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(18, 94, 145);
+    float:left; 
+    margin-top: 30px;
+}
+#five5{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(37, 35, 167);
+    float:left;
+    margin-top: 30px; 
+}
+#six6{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(17, 138, 175);
+    float:left;
+    margin-top: 30px;
+}
+#seven7{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(80, 87, 78);
+    float: left;
+    margin-top: 30px; 
+
+}
+body{
+
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Acme', sans-serif; 
+
+}
+#on{
+    height: 120px;
+    width: 50px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(6, 8, 6);
+    margin-left: 180px;
+    margin-top: 80px;
+    float: left;
+}
+#tw{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(192, 204, 88);
+  float: left;
+  margin-bottom: 100px;
+  margin-left:180px;
+  
+}
+#thr{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(223, 236, 104);
+    float: left;
+    
+}
+#fou{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(245, 70, 47);
+    float: left;
+}
+#fiv{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(250, 68, 235);
+    float: left;
+}
+#si{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(163, 236, 104);
+    float: left;
+}
+#sev{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(104, 157, 236);
+    float: left;
+}
+#eig{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(67, 57, 158);
+    float: left;
+}
+#nine{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(150, 57, 158);
+    float: left;
+}
+#ten{
+    height: 120px;
+    width: 100px; 
+    border: solid black 2px;
+    text-align: center;
+    background-color: rgb(62, 10, 66);
+    float: left;
+}

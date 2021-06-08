@@ -1,0 +1,33 @@
+
+.row{
+
+    position: relative;
+
+}
+
+.col-1,.col-2,.col-3{
+    border: solid black 1px;
+    height: 250px;
+    width: 350px;
+}
+.col-1{
+
+position: absolute;
+top: 0px;
+
+}
+.col-2{
+   
+    position: absolute;
+    top: 0px;
+    left: 31%
+    
+}
+.col-3{
+   
+position: absolute;
+top:0px;
+left: 61%;
+
+}
+
