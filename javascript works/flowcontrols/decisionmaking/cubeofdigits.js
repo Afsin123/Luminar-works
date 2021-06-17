@@ -11,8 +11,9 @@ while(num!=0){
     num = Math.floor(num/10);
     cube= temp*temp*temp
   //  temp1= temp1+ temp;
-    console.log(cube);
+    //console.log(cube);
     sum=sum+cube;
+    //sum=sum(temp**3);
     
 }
 //console.log(temp1);
