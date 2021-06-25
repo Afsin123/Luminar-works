@@ -8,7 +8,7 @@
 // stmt 2
 // }
 
-var age=50;
+var age=50; 
 // if(age>=65)
 // {
 // console.log("You are eligible for vaccination");
@@ -17,4 +17,4 @@ var age=50;
 //     console.log("You are not eligible for vaccination");
 // }
 
-console.log((age>=65?"Eligible for vaccination": "Not eligible"  ));
+console.log((age>=65)?"Eligible for vaccination": "Not eligible"  );

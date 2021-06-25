@@ -11,6 +11,6 @@ else if (num%2==0)
     }
     else 
     {
-        log
+        console.log("Invalid number");
     }
 
