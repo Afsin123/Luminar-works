@@ -60,4 +60,5 @@ console.log(product_details);
 
 // 
 
-var is_available=products.some(item=>item.mrp>30 & item.)
+var is_available=products.some(item=>item.mrp>30 & item.mrp<50?item1:item2);
+console.log(is_available);

@@ -1,13 +1,15 @@
 //Function to add 2 numbers or 3 numbers or 4 numbers etc. 
 
-function add(...arr) {
+function add(...args) {
+    //args=[]
     let total=0;
-    for(let num of arr){
+    for(let num of args){
      total+=num;
     }
     return total
 }
-console.log(add(10,20));
+console.log(add(10,20,30,40));
+
 
 
 

@@ -14,13 +14,13 @@ var products=[
 ]
 var count=0;
 
-// // // print number of product in this -shop  8
+/*--- print number of product in this -shop  8---*/
 // for(let product in products){   
 //     count++;
 // }
 // console.log(count);
 
-// print number of product in -stock 7
+/*--print number of product in -stock 7---*/
 // for(let product of products){
 //     if(product[3]<1){
 //         console.log(product);
