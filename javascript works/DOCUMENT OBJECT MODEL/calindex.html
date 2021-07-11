@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+       #calc {
+            width: 300px;
+            height: 300px;
+        }
+
+        .btn {
+            shape-rendering: crispEdges;
+            font-size: 20px;
+            border: solid 1px black;
+            border-radius: 10px ;
+            
+        }
+        .dispbtn {
+            width: 300px;
+             height:50px ;
+            font-size: 20px;
+            border: solid 1px red;
+            border-radius: 10px ;
+            
+        }
+    </style>
+</head>
+<body>
+   <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> Calculator </h1>
+    
+   <table id="calc">
+      <tr>
+          <td colspan="4"><input class="dispbtn" name="display" id="inpt" type="text" style="background-color: #FF0509;"></td>
+      </tr>
+      <tr>
+          <td><input class="btn" type="button" onclick=clearBox() value="C"></td>
+          <td><input class="btn" type="button" onclick=removeNumber()  value="<"></td>
+          <td><input class="btn" type=button onclick=displaynumber() value="/"></td>
+          <td><input class="btn" type=button onclick="displaynumber('*')"value="X" ></td>
+      </tr>
+      <tr>
+          <td><input class="btn" type=button onclick="displaynumber('7')" value="7" ></td>
+          <td><input class="btn" type=button onclick="displaynumber('8')" value="8"></td>
+          <td><input class="btn" type=button onclick="displaynumber('9')" value="9"></td>
+          <td><input class="btn" type=button onclick="displaynumber('-')" value="-"></td>
+      </tr>
+      <tr>
+          <td><input class="btn" type=button onclick="displaynumber('4')" value="4"></td>
+          <td><input class="btn" type=button onclick="displaynumber('5')" value="5"></td>
+          <td><input class="btn" type=button onclick="displaynumber('6')" value="6"></td>
+          <td><input class="btn" type=button onclick="displaynumber('+')" value="+"></td>
+      </tr>
+      <tr>
+          <td><input class="btn" type=button onclick="displaynumber('2')" value="2"></td>
+          <td><input class="btn" type=button onclick="displaynumber('3')" value="3">
+              <td><input class="btn" type=button onclick="displaynumber('1')" value="1"></td>
+          </td>
+          <td rowspan="2"><input class="btn" type=button onclick="evaluateExpression()" value="="   style="height: 82px!important;"></td>
+      </tr>
+      <tr>
+          <td colspan=2><input class="btn" type=button value="0" ></td>
+          <td><input class="btn" type=button value="." ></td>
+      </tr>
+  </table>
+</body>
+   
+</body>
+</html>

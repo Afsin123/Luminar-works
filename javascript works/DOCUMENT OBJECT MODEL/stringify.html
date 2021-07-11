@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Stringify </h1>
+</body>
+<script>
+    /*--- To add key ,value in which value tself is an object we use stringify.---*/
+    var book ={
+        book_name:"Rainsing",
+        author: "Nirupam",
+        price: 470,
+        books_sold: 17
+
+    }
+    /*--- Output should be printed like this, then use the syntax: 
+     "ransing":{
+        book_name:"Rainsing",
+        author: "Nirupam",
+        price: 470,
+        books_sold: 17
+    } -----*/
+
+  localStorage.setItem(book.book_name,JSON.stringify(book));
+
+/*------- To add a new object to local storage----*/
+
+  var user={
+      account_number:1234,
+      password:"admin@123",
+      balance:10000
+  }
+  localStorage.setItem(user.account_number,JSON.stringify(user));
+  
+
+
+
+</script>
+</html>

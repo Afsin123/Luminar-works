@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="bk_name" placeholder="BookName"> <br>
+    <input type="text" id="auth" placeholder="Author"> <br>
+    <input type="text" id="prc" placeholder="Price"> <br>
+    <input type="text" id="noofcopies" placeholder="Number of Copies"> <br>
+    <button onclick="CreateBook()"> Create </button>
+
+</body>
+
+<script>
+function CreateBook() {
+    let book_name=bk_name.value;
+    let author=auth.value;
+    let price = prc.value;
+    let number_of_copies= noofcopies.value;
+
+    let book={
+        book_name:book_name,
+        author:author,
+        price : price,
+        number_of_copies:number_of_copies
+    
+    }
+    localStorage.setItem(book["book_name"],JSON.stringify(book));
+     alert("User Created");
+     location.reload(true)  
+    }
+
+
+</script>
+</html>

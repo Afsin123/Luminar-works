@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Document Object Model</h1>
+    <h2> DOM Attributes </h2>
+    <ul>
+        <li> URL </li>
+        <li> head </li>
+        <li> Links </li>
+    </ul>
+    <a href="#"> one </a>
+    <a href="#"> two</a>
+    <a href="#"> three </a>
+    <h2> Document Object Model Methods </h2>
+    <ul>
+        <li class="one"> document.getElementsByTagName ()</li>
+        <li id="lst">document.getElementById () </li>
+        <li class="one">  document.getElementsByClassName ()</li>
+
+
+    </ul>
+
+
+    <!-- Document object Model  -->
+    <!-- var document ={
+        URL : " current url"
+    } -->
+
+    <!--  Format to use in browser console // To get the element by using Tag Name 
+        
+        var name= "getElements TagName
+    for (let tag of name){
+        tag.style.color="red"
+    } -->
+
+
+
+
+</body>
+<script>
+    
+
+// ----To selcect the element by using id-----// 
+
+  var item=document.getElementById("lst")
+    item.style.color="blue"
+
+
+// ----To selcect the element by using class name -----// 
+var item= document.getElementsByClassName("one")
+    for (let tag of item){
+        tag.style.color="red"
+    } 
+// Using query selector and query selector all
+
+var tags= document.querySelectorAll("li")
+    for (let tag of tags){
+        tag.style.color="cyan"
+    } 
+    // Query Selector using class syntax
+    // var tags= document.querySelectorAll(".class")
+    // for (let tag of tags){
+    //     tag.style.color="cyan"
+    // } 
+
+    // Query Selector using Id syntax
+    // var tags= document.querySelectorAll("#Id")
+    // 
+    //     tag.style.color="cyan"
+    
+    //query selctor using name is not possible
+    
+
+
+
+</script>
+
+</html>

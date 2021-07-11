@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" id="ac_no" placeholder="account_number" > <br>
+    <input type="text" id="pswd" placeholder="password"> <br> 
+    <input type="text" id="bal" placeholder="balance"> <br>
+    <button onclick="CreateUser()"> Create </button>
+    
+
+
+</body>
+<script>
+    
+
+    function CreateUser(){
+        let account_number=ac_no.value;
+        let password=pswd.value;
+        let balance=bal.value;
+        let user={
+            account_number:account_number,
+            password:password,
+            balance:balance
+        }
+        localStorage.setItem(user.account_number, JSON.stringify(user));
+        alert("User Created");
+        location.reload(true);  //To clear boxes after one use
+
+
+    }
+
+
+
+</script>
+</html>

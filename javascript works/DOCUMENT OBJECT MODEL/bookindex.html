@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Book index</h2>
+</body>
+<script>  
+// book_name: "harrypotter"
+// author: " JK Rowling"
+// price: 500
+
+localStorage.setItem("book_name", "Harry Potter")
+localStorage.setItem("author","JK Rowling")
+localStorage.setItem("price",500)
+
+// To print each key in console 
+  console.log(localStorage.key(0));  
+  console.log(localStorage.key(1));
+
+//To print all keys in console
+for(let i=0;i<localStorage.length;i++){
+    console.log(localStorage.key(i));
+}
+
+// To print key and value in console'
+for(let i=0;i<localStorage.length;i++){
+    let key=localStorage.key(i);
+    let val=localStorage.getItem(key);
+    console.log(key + " : "+  val);
+
+}
+
+
+</script>
+</html>
