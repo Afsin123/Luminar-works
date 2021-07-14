@@ -1,0 +1,22 @@
+
+.row1{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.row2{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around; 
+}
+.col-1,.col-2,.col-3{
+    width: 30%;
+    height: 350px;
+    border: 2px solid black;
+text-align: center;
+float: left;
+
+}
